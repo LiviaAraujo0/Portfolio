@@ -135,7 +135,7 @@ section.topo-do-site .flex {
     }
 }
 
-/* ESTILO DAS ESPECIALIDADES */
+/* ESTILO DAS HABILIDADES */
 
 section.especialidades {
     padding: 40px 4%;
@@ -143,19 +143,29 @@ section.especialidades {
 }
 
 section.especialidades .flex {
-    gap: 60px;
+    gap: 50px;
 }
 
 .especialidades .especialidades-box {
+    display: inline-block;
     color: #fff;
     background-color: #2c6dfaa2;
-    padding: 60px;
+    padding: 30px;
     text-align: center;
     border-radius: 8px;
+    border: 1px solid #2c6dfaa2;
     transition: 0.3s ease;
-    margin-top: 40px;
+    margin-top: 20px; 
+    font-size: 16px; 
+    box-sizing: border-box;
 
 }
+
+/* Estilo para o texto dentro da especialidades-box */
+.especialidades .especialidades-box p {
+    margin: 0 0 20px; /* Margem inferior para separar os parágrafos */
+    line-height: 1.5; /* Altura da linha para melhor legibilidade */
+}   
 
 .especialidades .especialidades-box:hover {
     transform: scale(1.05);
